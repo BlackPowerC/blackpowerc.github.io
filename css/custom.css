@@ -1,0 +1,36 @@
+/*Pas utile*/
+.skill-percentage.skill-zero {
+    width: 0;
+}
+
+.skill-percentage.skill-one {
+    width: 10%;
+}
+
+.skill-percentage.skill-one-fifty {
+    width: 15%;
+}
+
+.skill-percentage.skill-two {
+    width: 20%;
+}
+
+.skill-percentage.skill-two-fifty {
+    width: 25%;
+}
+
+.skill-percentage.skill-three {
+    width: 30%;
+}
+
+.skill-percentage.skill-three-fifty {
+    width: 35%;
+}
+
+.skill-percentage.skill-five {
+    width: 50%;
+}
+
+.skill-percentage.skill-five-fifty {
+    width: 55%;
+}
