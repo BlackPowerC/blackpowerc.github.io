@@ -16,7 +16,7 @@ body {
 }
 
 a {
-    color: #ff724c;
+    color: #3686f7;
     text-decoration: none;
     outline: none;
     -webkit-transition: all .3s ease-in-out;
@@ -88,7 +88,7 @@ input[type=submit], input[type=button], button, a.button {
     line-height: 1.2;
     border: 0;
     outline: 0;
-    border: 2px solid #ff724c;
+    border: 2px solid #3686f7;
     color: #222;
     text-shadow: none;
     background: 0 0;
@@ -102,7 +102,7 @@ input[type=submit], input[type=button], button, a.button {
 
 input[type=submit]:hover, input[type=submit]:focus, input[type=button]:focus, button:hover, button:focus, a.button:hover, a.button:focus {
     color: #fff;
-    background-color: #ff724c
+    background-color: #3686f7
 }
 
 .mCSB_inside > .mCSB_container {
@@ -110,13 +110,13 @@ input[type=submit]:hover, input[type=submit]:focus, input[type=button]:focus, bu
 }
 
 .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
-    background-color: #ff724c;
+    background-color: #3686f7;
     opacity: 1;
     border-radius: 0
 }
 
 .mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar, .mCSB_scrollTools .mCSB_dragger:focus .mCSB_dragger_bar {
-    background-color: #ff724c;
+    background-color: #3686f7;
     opacity: 1
 }
 
@@ -163,7 +163,7 @@ textarea.form-control, textarea.form-control:focus {
     left: 50%;
     right: 50%;
     bottom: 0;
-    background: #ff724c;
+    background: #3686f7;
     height: 2px;
     -webkit-transition: all .4s ease-in-out;
     -moz-transition: all .4s ease-in-out;
@@ -191,7 +191,7 @@ textarea.form-control, textarea.form-control:focus {
 }
 
 .form-control:focus + .form-control-border + .form-control-icon {
-    color: #ff724c
+    color: #3686f7
 }
 
 .form-control::-moz-placeholder {
@@ -250,8 +250,8 @@ textarea.form-control, textarea.form-control:focus {
     background: 0 0;
     width: 40px;
     height: 40px;
-    border-top: 2px solid #ff724c;
-    border-left: 2px solid #ff724c;
+    border-top: 2px solid #3686f7;
+    border-left: 2px solid #3686f7;
     left: 0;
     top: 0;
     z-index: 0
@@ -263,8 +263,8 @@ textarea.form-control, textarea.form-control:focus {
     background: 0 0;
     width: 40px;
     height: 40px;
-    border-bottom: 2px solid #ff724c;
-    border-right: 2px solid #ff724c;
+    border-bottom: 2px solid #3686f7;
+    border-right: 2px solid #3686f7;
     right: 0;
     bottom: 0;
     z-index: 0
@@ -276,8 +276,8 @@ textarea.form-control, textarea.form-control:focus {
     background: 0 0;
     width: 60px;
     height: 60px;
-    border-bottom: 2px solid #ff724c;
-    border-right: 2px solid #ff724c;
+    border-bottom: 2px solid #3686f7;
+    border-right: 2px solid #3686f7;
     right: 0;
     bottom: 0;
     z-index: 0
@@ -289,8 +289,8 @@ textarea.form-control, textarea.form-control:focus {
     background: 0 0;
     width: 110px;
     height: 110px;
-    border-top: 3px solid #ff724c;
-    border-left: 3px solid #ff724c;
+    border-top: 3px solid #3686f7;
+    border-left: 3px solid #3686f7;
     left: 20px;
     top: 10px;
     z-index: 0
@@ -329,7 +329,7 @@ textarea.form-control, textarea.form-control:focus {
     display: inline-block;
     position: absolute;
     top: 0;
-    background-color: #ff724c;
+    background-color: #3686f7;
     border-radius: 100%;
     -webkit-animation: bounce 2s infinite ease-in-out;
     animation: bounce 2s infinite ease-in-out
@@ -514,7 +514,7 @@ textarea.form-control, textarea.form-control:focus {
     position: fixed;
     width: 150px;
     height: 100%;
-    background-color: #ff724c;
+    background-color: #3686f7;
     overflow: auto;
     -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, .2);
     -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, .2);
@@ -589,7 +589,7 @@ ul.social-links li a {
 
 ul.social-links li a:hover {
     color: #fff;
-    background-color: #ff724c;
+    background-color: #3686f7;
     border-color: transparent
 }
 
@@ -615,7 +615,7 @@ ul.social-links li:last-child a {
 }
 
 .menu-toggle i {
-    color: #ff724c;
+    color: #3686f7;
     font-size: 21px;
     line-height: 50px
 }
@@ -679,7 +679,7 @@ ul.social-links li:last-child a {
     width: 0;
     height: 100%;
     margin: 0 auto;
-    background-color: #ff724c;
+    background-color: #3686f7;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     -o-transition: all .2s ease-in-out;
@@ -761,7 +761,7 @@ ul.social-links li:last-child a {
         right: 0;
         bottom: 0;
         margin: 0 auto;
-        background-color: #ff724c;
+        background-color: #3686f7;
         height: 2px;
         -webkit-transition: width .3s ease-in-out;
         -moz-transition: width .3s ease-in-out;
@@ -771,13 +771,13 @@ ul.social-links li:last-child a {
     }
 
     .layout-menu-top .site-main-menu li a:hover:after, .layout-menu-bottom .site-main-menu li a:hover:after {
-        background-color: #ff724c;
+        background-color: #3686f7;
         width: 100%;
         height: 2px
     }
 
     .layout-menu-top .site-main-menu li.active a:after, .layout-menu-bottom .site-main-menu li.active a:after {
-        background-color: #ff724c;
+        background-color: #3686f7;
         width: 100%;
         height: 2px
     }
@@ -816,7 +816,7 @@ ul.social-links li:last-child a {
     margin: 12px 0 0;
     font-size: 60px;
     line-height: 1.1em;
-    color: #eee;
+    color: #8a8a8a;
     z-index: 1
 }
 
@@ -825,7 +825,7 @@ ul.social-links li:last-child a {
     position: relative;
     margin: 0;
     color: #fff;
-    background-color: #ff724c;
+    background-color: #3686f7;
     padding: 0 10px;
     font-size: 14px;
     font-weight: 200;
@@ -848,7 +848,7 @@ ul.social-links li:last-child a {
     height: 100%;
     left: -10px;
     bottom: 0;
-    background-color: #ff724c
+    background-color: #3686f7
 }
 
 .table {
@@ -874,14 +874,14 @@ ul.social-links li:last-child a {
 }
 
 .home-page-block h2 {
-    color: #ff724c;
+    color: #fff;
     text-align: center;
     font-size: 70px;
     margin: 0
 }
 
 .home-page-description {
-    color: #222;
+    color: #fff;
     font-size: 21px;
     font-weight: 300;
     font-family: oxygen, Helvetica, sans-serif;
@@ -922,7 +922,7 @@ ul.social-links li:last-child a {
     width: 100%;
     height: 2px;
     margin-top: -3px;
-    background-color: #ff724c
+    background-color: #3686f7
 }
 
 .info-list li .value {
@@ -942,7 +942,7 @@ ul.social-links li:last-child a {
 
 .service-icon {
     font-size: 60px;
-    color: #ff724c;
+    color: #3686f7;
     margin: 5px 0 18px
 }
 
@@ -994,7 +994,7 @@ ul.social-links li:last-child a {
     font-weight: 300;
     display: block;
     margin: 10px 0;
-    color: #ff724c
+    color: #3686f7
 }
 
 .testimonials {
@@ -1101,7 +1101,7 @@ ul.social-links li:last-child a {
     font-weight: 300;
     line-height: 1.1em;
     margin: 0 0 3px;
-    background-color: #ff724c;
+    background-color: #3686f7;
     padding: 5px 8px 5px 20px;
     margin-left: -20px
 }
@@ -1116,8 +1116,8 @@ ul.social-links li:last-child a {
     height: 26px;
     width: 26px;
     text-align: center;
-    border-top: 1px solid #ff724c;
-    border-left: 1px solid #ff724c
+    border-top: 1px solid #3686f7;
+    border-left: 1px solid #3686f7
 }
 
 .event-date .event-icon i {
@@ -1162,7 +1162,7 @@ ul.social-links li:last-child a {
 }
 
 .skill-percentage {
-    background-color: #ff724c;
+    background-color: #3686f7;
     border: 1px solid #fff;
     height: 10px;
     padding: 0
@@ -1250,7 +1250,7 @@ ul.social-links li:last-child a {
 }
 
 .portfolio-filters li.active a, .portfolio-filters li.active a:hover {
-    background-color: #ff724c;
+    background-color: #3686f7;
     color: #fff
 }
 
@@ -1309,7 +1309,7 @@ ul.social-links li:last-child a {
 }
 
 .portfolio-grid figure a div i {
-    color: #ff724c;
+    color: #3686f7;
     position: absolute;
     font-size: 24px;
     bottom: 14px;
@@ -1361,7 +1361,7 @@ ul.social-links li:last-child a {
 .contact-info-block .pe-7s-icon {
     position: relative;
     font-size: 30px;
-    color: #ff724c
+    color: #3686f7
 }
 
 .testimonials.owl-carousel .owl-nav {
@@ -1377,7 +1377,7 @@ ul.social-links li:last-child a {
 
 .testimonials.owl-carousel .owl-nav .owl-prev, .testimonials.owl-carousel .owl-nav .owl-next {
     display: inline-block;
-    background-color: #eee;
+    background-color: #8a8a8a;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     -o-transition: all .2s ease-in-out;
@@ -1387,7 +1387,7 @@ ul.social-links li:last-child a {
 
 .testimonials.owl-carousel .owl-nav .owl-prev:hover, .testimonials.owl-carousel .owl-nav .owl-next:hover {
     color: #fff;
-    background-color: #ff724c
+    background-color: #3686f7
 }
 
 .testimonials.owl-carousel .owl-nav .owl-prev:before, .testimonials.owl-carousel .owl-nav .owl-next:before {
@@ -1548,7 +1548,7 @@ ul.social-links li:last-child a {
 }
 
 .ajax-page-nav > div.nav-item a:hover {
-    color: #ff724c
+    color: #3686f7
 }
 
 .ajax-page-nav > div.nav-item a i {
@@ -1591,7 +1591,7 @@ ul.social-links li:last-child a {
 }
 
 .project-general-info .fa {
-    color: #ff724c;
+    color: #3686f7;
     margin-right: 5px
 }
 
@@ -1617,7 +1617,7 @@ ul.social-links li:last-child a {
 
 .share-buttons a:hover {
     color: #fff;
-    background-color: #ff724c;
+    background-color: #3686f7;
     border-color: transparent
 }
 
@@ -1702,7 +1702,7 @@ ul.social-links li:last-child a {
         position: fixed;
         width: 100%;
         height: 50px;
-        border-bottom: 1px solid #eee;
+        border-bottom: 1px solid #8a8a8a;
         background-color: #fff;
         z-index: 1000
     }
@@ -1869,7 +1869,7 @@ ul.social-links li:last-child a {
 }
 
 .template-style-dark .form-control, .template-style-dark .form-control:focus, .template-style-dark .has-error .form-control, .template-style-dark .has-error .form-control:focus {
-    color: #eee;
+    color: #8a8a8a;
     border-color: #555
 }
 
@@ -1878,7 +1878,7 @@ ul.social-links li:last-child a {
 }
 
 .template-style-dark .home-page-block h2 {
-    color: #ff724c
+    color: #3686f7
 }
 
 .template-style-dark .home-page-description {
@@ -1890,7 +1890,7 @@ ul.social-links li:last-child a {
 }
 
 .template-style-dark .info-list li .value {
-    color: #eee
+    color: #8a8a8a
 }
 
 .template-style-dark ul.social-links li a {
@@ -1906,7 +1906,7 @@ ul.social-links li:last-child a {
 
 .template-style-dark ul.social-links li a:hover {
     color: #fff;
-    background-color: #ff724c;
+    background-color: #3686f7;
     border-color: transparent
 }
 
@@ -1962,7 +1962,7 @@ ul.social-links li:last-child a {
 }
 
 .header.header-color-light .my-photo .border-block-bottom-40 {
-    border-color: #ff724c
+    border-color: #3686f7
 }
 
 .header.header-color-light .my-photo img {
@@ -1970,7 +1970,7 @@ ul.social-links li:last-child a {
 }
 
 .header.header-color-light .site-title {
-    color: #ff724c
+    color: #3686f7
 }
 
 .header.header-color-light .site-main-menu li a, .header.header-color-light .site-main-menu li a:hover {
@@ -1979,11 +1979,11 @@ ul.social-links li:last-child a {
 }
 
 .header.header-color-light .site-main-menu li a i, .header.header-color-light .site-main-menu li a:hover i {
-    color: #ff724c
+    color: #3686f7
 }
 
 .header.header-color-light .site-main-menu li.active a:after {
-    background-color: #ff724c
+    background-color: #3686f7
 }
 
 .header.header-color-dark {
@@ -1991,7 +1991,7 @@ ul.social-links li:last-child a {
 }
 
 .header.header-color-dark .my-photo .border-block-bottom-40 {
-    border-color: #ff724c
+    border-color: #3686f7
 }
 
 .header-color-main .site-main-menu li a:after, .header-color-main .site-main-menu li a:hover:after, .header-color-main .site-main-menu li.active a:after {
