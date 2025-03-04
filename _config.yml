@@ -1,0 +1,83 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Jordy Fatigba
+
+email: jordy.fatigba@theopentrade.com
+
+# description: >- # this means to ignore newlines until "baseurl:"
+#  Les chatbots aujourd'hui sont capables de fournir de l'aide et une expérience enrichissante à vos clients, leur garantissant une bonne satisfaction.
+#  L'idée des chatbots apporte non seulement un expérience agréable à vos clients mais aussi une réduction des coûts pour votre entreprise grâce à l'automatisation des tâches répétitives de votre service client
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://blackpowerc.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jordy_fatigba
+
+meta:
+  description: "Développeur d'applications, Concepteur de sites et d'applications web pros. Vous avez un projet ? Vous voulez une application métier sur mesure ou un site web pro pour votre entreprise ? Je suis votre homme."
+  title: "Développeur d'applications, Concepteur de sites et d'applications web pros."
+  google_verification: "mft52I4znqUfHpwueQf8imD2wk9zEXj1ujQ0FcRyWPE"
+  keyword:
+
+profile_picture: "https://media.licdn.com/dms/image/v2/C5603AQHVpxBFVyAziQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1661514931859?e=1746662400&v=beta&t=JWxfdudXfUWprbPiWJrhAcYysRgm4EslNeev7a3BShI"
+
+# Author
+author:
+  twitter: jordy_fatigba
+  name: Jordy Fatigba
+  url: https://blackpowerc.github.io/
+
+# Social links
+social:
+  name: Jordy Fatigba
+  links:
+    - https://twitter.com/jordy_fatigba/
+    - https://www.linkedin.com/in/jordy-fatigba-5028ba99/
+
+# Build settings
+languages:
+  - en
+  - fr
+default_lang: fr
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+exclude:
+   - .sass-cache/
+   - .jekyll-cache/
+   - gemfiles/
+   - Gemfile
+   - Gemfile.lock
+   - vendor/bundle/
+   - vendor/cache/
+   - vendor/gems/
+   - vendor/ruby/
+   - .idea
+   - bitbucket-pipelines.yml
+   - Rakefile
+   - static.json
+   - _layouts
+   - assets
