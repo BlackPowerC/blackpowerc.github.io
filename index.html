@@ -1,13 +1,18 @@
+---
+permalink: /
+lang: fr
+title: Acceuil
+---
 <!DOCTYPE html>
 <html lang="fr" class="no-js" prefix="og: https://opg.me/ns/profile#">
 <head>
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <title>Jordy FATIGBA - Développeur d'applications, Concepteur de site web pro</title>
+    <title>{{ site.title }}- Développeur d'applications, Concepteur de site web pro</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-    <meta name="description" content="Jordy FATIGBA - Développeur d'application, Concepteur de site web pro"/>
-    <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, Unique, portfolio"/>
-    <meta name="author" content="lmtheme"/>
+    <meta name="description" content="{{ site.title }} - {{ site.meta.title }}"/>
+    <meta name="keywords" content="Développeur d'applications, Concepteur de sites web professionnels, Ingénieur logiciel freelance, Conception de sites web optimisés pour le SEO, Création de Progressive Web Apps"/>
+    <meta name="author" content="{{ site.author.name }}"/>
     <!-- Favicon -->
     <meta name="theme-color" content="#ffffff"/>
     <meta name="msapplication-TileColor" content="#da532c"/>
@@ -18,23 +23,24 @@
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png"/>
 
     <!-- Méta données Open Graph -->
-    <meta property="og:title" content="Jordy FATIGBA - Développeur d'application, Concepteur de site web pro"/>
-    <meta property="og:description" content="Jordy FATIGBA - Développeur d'application, Concepteur de site web pro. Vous avez un projet ? Vous voulez une application métier sur mesure ou un site web pro pour votre entreprise ? Je suis votre homme."/>
+    <meta property="og:title" content="{{ site.title }} - {{ site.meta.title }}"/>
+    <meta property="og:description" content="{{ site.title }} - {{ site.meta.description }}"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:url" content="https://blackpowerc.github.io"/>
-    <meta property="og:image" content="https://pbs.twimg.com/profile_images/1626879443640758272/E964M42O_400x400.jpg"/>
+    <meta property="og:url" content="{{ site.url }}"/>
+    <meta property="og:image" content="{{ site.profile_picture }}"/>
     <meta property="og:profile:first_name" content="Jordy"/>
     <meta property="og:profile:last_name" content="FATIGBA"/>
     <meta property="og:profile:username" content="blackpowerc"/>
     <meta property="og:profile:gender" content="male"/>
+
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:site" content="@jordy_fatigba"/>
-    <meta name="twitter:title" content="Jordy FATIGBA - Développeur d'application, Concepteur de site web pro"/>
-    <meta name="twitter:description" content="Jordy FATIGBA - Développeur d'application, Concepteur de site web pro. Vous avez un projet ? Vous voulez une application métier sur mesure ou un site web pro pour votre entreprise ? Je suis votre homme."/>
-    <meta name="twitter:image" content="https://pbs.twimg.com/profile_images/1626879443640758272/E964M42O_400x400.jpg"/>
+    <meta name="twitter:title" content="{{ site.title }} - {{ site.meta.description }}"/>
+    <meta name="twitter:description" content="{{ site.title }} - {{ site.meta.description }}"/>
+    <meta name="twitter:image" content="{{ site.profile_picture }}"/>
 
-    <meta name="google-site-verification" content="mft52I4znqUfHpwueQf8imD2wk9zEXj1ujQ0FcRyWPE"/>
+    <meta name="google-site-verification" content="{{ site.meta.google_verification }}"/>
 
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css"/>
     <link rel="stylesheet" href="css/normalize.css" type="text/css"/>
@@ -65,7 +71,7 @@
     <!-- Header -->
     <header id="site_header" class="header mobile-menu-hide header-color-light">
         <div class="my-photo tilt-effect">
-            <img src="https://pbs.twimg.com/profile_images/1626879443640758272/E964M42O_400x400.jpg" alt="moi"/>
+            <img src="{{ site.profile_picture }}" alt="moi"/>
         </div>
 
         <div class="site-title-block">
@@ -164,7 +170,7 @@
                         <div class="row">
                             <div class="col-sm-6 col-md-6 col-lg-4 subpage-block">
                                 <div class="my-photo-block tilt-effect">
-                                    <img src="https://pbs.twimg.com/profile_images/1626879443640758272/E964M42O_400x400.jpg" alt="moi"/>
+                                    <img src="{{ site.profile_picture }}" alt="moi"/>
                                 </div>
                             </div>
 
@@ -460,7 +466,7 @@
                             </div>
 
                             <!-- Formations -->
-                            <div class="col-sm-6 col-md-4 subpage-block">
+                            <div class="col-sm-6 col-md-6 col-xs-12 subpage-block">
                                 <div class="block-title">
                                     <h3>Formations</h3>
                                 </div>
@@ -689,7 +695,7 @@
                                            title="Tester le bot sur WhatsApp">
                                             Essayer sur WhatsApp
                                         </a>
-                                        <a href="https://t.me/CustomerCareDraft_bot"
+                                        <a href="https://t.me/Diwa_International_bot"
                                            target="_blank"
                                            title="Tester le bot sur Telegram">
                                             Essayer sur Telegram
